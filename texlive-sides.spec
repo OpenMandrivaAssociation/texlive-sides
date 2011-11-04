@@ -47,6 +47,7 @@ it--most noticibly there are no longer orphans.
 %doc %{_texmfdistdir}/doc/latex/sides/README
 %doc %{_texmfdistdir}/doc/latex/sides/sides-sample.pdf
 %doc %{_texmfdistdir}/doc/latex/sides/sides-sample.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +58,5 @@ it--most noticibly there are no longer orphans.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
