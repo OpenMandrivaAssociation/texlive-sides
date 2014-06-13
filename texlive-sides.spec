@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-sides
 Version:	20070226
-Release:	6
+Release:	7
 Summary:	A LaTeX class for typesetting stage plays
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sides
