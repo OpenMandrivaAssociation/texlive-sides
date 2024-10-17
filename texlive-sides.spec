@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	A LaTeX class for typesetting stage plays
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sides
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/sides
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sides.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sides.doc.r%{version}.tar.xz
